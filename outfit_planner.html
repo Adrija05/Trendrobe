@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=favorite" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+</head>
+<body>
+    <div id="nav">
+        <div id="nav1">
+            <a href="index.html">Home</a> <!-- Link back to Home Page -->
+            <h4>Talent</h4>
+            <a href="outfit_planner.html"><h4>Outfit Planner</h4></a>
+            <h4>More</h4>
+        </div>
+        <div id="nav2">
+            <a href="signin.html">
+                <button id="sig">Sign in</button>
+            </a>
+        </div>
+        </div>
+    <div>
+        <h1>Outfit Planner</h1>
+    <div>
+        <label for="date">Select Date:</label>
+    
+    </div>
+    <div>
+        <input type="date" id="date">
+    </div>
+    <div>
+        <label for="outfit">Enter Outfit:</label>
+    <input type="text" id="outfit" placeholder="E.g., Blue Shirt, Black Jeans">
+    </div>
+
+    
+    
+    <button id="saveOutfit">Save Outfit</button>
+    
+    <h2>Planned Outfits</h2>
+    <ul id="outfitList"></ul>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="save_outfit.js"></script>
+    </div>
+</body>
+</html>

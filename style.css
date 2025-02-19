@@ -241,3 +241,218 @@ html,body{
 .post-rating:not(.active):hover > .material-symbols-outlined {
     color: lightgrey;
 }
+
+
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Container */
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, button {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+/* Button */
+button {
+    background: #ffcc00;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff9900;
+}
+
+/* Outfit List */
+h2 {
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete Button */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Container */
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, button {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+/* Button */
+button {
+    background: #ffcc00;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff9900;
+}
+
+/* Outfit List */
+h2 {
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete Button */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
